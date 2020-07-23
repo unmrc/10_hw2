@@ -88,6 +88,8 @@
   background: #fff;
   border-radius: 10px;
   position: relative;
+  padding: 15px 35px;
+  min-height: 497px;
 }
 
 .form-wrapper__title {
@@ -97,19 +99,107 @@
   font-size: 24px;
   line-height: 26px;
   font-weight: 700;
-  padding: 49px 0 0 7px;
-  margin: 0 0 30px 0;
+  padding: 35px 0 0 7px;
+  margin: 0 0 38px 0;
 }
 
 .form-wrapper input {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #9f9f9f;
   outline: none;
   border: none;
-  margin-bottom: 20px;
+  margin-bottom: 38px;
   border-bottom: 1px solid #d5d5d5;
+  padding: 0 0 10px 0;
+}
+
+.form-wrapper i {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  position: absolute;
+  right: -6px;
+  cursor: pointer;
+}
+
+.form-wrapper__input div {
+  position: relative;
+}
+
+.form-wrapper__input input {
+  max-width: 150px;
+}
+
+.btn {
+  padding: 11px 115px;
+  background: #f8c654;
+  border-radius: 30px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: none;
+  padding-top: 10px;
+  white-space: nowrap;
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+  color: black;
+}
+
+.phone {
+  text-align: center;
+  margin-bottom: 67px;
+}
+
+.phone__subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #9f9f9f;
+  letter-spacing: 0.1px;
+}
+
+.phone__subtitle:hover,
+.phone__subtitle:focus {
+  opacity: 0.7;
+}
+
+.number {
+  text-decoration: underline;
+  color: #5c524b;
+}
+
+.foot {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21.3px;
+  color: #5c524b;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+
+.foot a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #f8c654;
+}
+
+.foot a:hover,
+.foot a:focus {
+  opacity: 0.6;
 }
